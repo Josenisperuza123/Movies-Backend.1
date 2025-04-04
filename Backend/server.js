@@ -1,5 +1,5 @@
 const express = require('express')
-const { getConnection } = require('./db/connect-mongo')
+const { getConnection } = require('./ConexionBD')
 const cors = require('cors');
 require('dotenv').config()
   
